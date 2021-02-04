@@ -1,0 +1,94 @@
+.header{
+    background: #81ecec;
+}
+.header-logo h3{
+    color: #f7f0f0;
+    padding-top: 5px;
+}
+.header-logo a{
+    text-decoration: none;
+}
+
+.primary-menu{}
+.primary-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a {
+	display: block;
+	color: #ffffff;
+	padding: 0 20px;
+	line-height: 50px;
+	text-decoration: none;
+    border-right: 1px solid #dddddd;
+    margin-left: -5px;
+}
+.primary-menu ul li a:hover{
+    background: #a29bfe;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+/* banner section  */
+.banner{
+    background-image: url(./images/rei-kim-X5CyweAStIY-unsplash.jpg);
+    padding: 200px 0;
+    background-size: cover;
+}
+.banner-text{
+    
+    display: inline-block;
+    color: #ffffff;
+}
+.banner-text h1{
+
+    background: rgba(223, 230, 233, .5);
+    padding: 4px;
+    border-radius: 5px;
+}
+.banner-text h2{
+    background: rgba(223, 230, 233, .5); 
+    padding: 4px;
+    border-radius: 5px;
+}
+/* about section  */
+.about{
+    background: rgb(223, 249, 251);
+}
+/* service  */
+.service{
+    background: #b2bec3;
+}
+.card span i{
+    background: #fd79a8;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 2px 8px;
+    color: #0984e3;
+}
+/* product  */
+
+img{
+    max-width: 100%;
+}
+.product-right ul li {
+	background: #ddd;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.product-right ul {
+	list-style: none;
+	padding-left: 0;
+}
+/* footer section  */
+.footer{
+    background: #55efc4;
+
+}
+.footer p {
+	margin-bottom: 0;
+	padding: 10px;
+}
